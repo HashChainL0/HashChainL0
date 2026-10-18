@@ -6,9 +6,9 @@
 
 **Go in public. Come out private.**
 
-Private routes between Ethereum, Base, Robinhood Chain and Monero.
+The privacy Layer 0.
 
-[X](https://x.com/hashchainL0) &nbsp;|&nbsp; [Protocol spec](https://github.com/HashChainL0/protocol-spec) &nbsp;|&nbsp; [Brand kit](https://github.com/HashChainL0/brand-kit)
+[Website](https://hashchain.network) &nbsp;|&nbsp; [X](https://x.com/hashchainL0) &nbsp;|&nbsp; [Protocol spec](https://github.com/HashChainL0/protocol-spec) &nbsp;|&nbsp; [Brand kit](https://github.com/HashChainL0/brand-kit)
 
 </div>
 
@@ -16,42 +16,42 @@ Private routes between Ethereum, Base, Robinhood Chain and Monero.
 
 ## What is Hash Chain
 
-On Ethereum, Base and Robinhood Chain, every balance and every transfer is public. Anyone can look up what you hold and who you paid. Monero is private, but it lives apart from the Ethereum world, so moving value between them usually means trusting a custodian.
+Hash Chain is a privacy-first Layer 0 network. It has its own validators, and privacy is built into the base layer, so accounts, payments, swaps, assets and apps are private by default, settle in moments, and connect to Ethereum, Base, Robinhood Chain and Monero. It is the private base layer for onchain finance.
 
-Hash Chain is a privacy chain that works as a private hub between these networks. You come in from a supported chain, your funds become shielded, and you leave to any supported chain. People watching the origin and the destination cannot link the two.
+## What lives on Hash Chain
 
-Technically, Hash Chain is an L3 that settles on Base and is secured by Ethereum through Base. Gas is paid in ETH.
+1. **Private accounts.** Balances and history are hidden by default. One account holds any connected asset.
+2. **Private payments.** Private transfers of ETH and stablecoins, payment links, batch payouts and merchant checkout.
+3. **Private swaps.** A native exchange layer where trades, sizes and wallets are not visible, so no front-running or copy-trading. Includes native atomic swaps with Monero.
+4. **Private assets.** Issue and hold tokenized assets, such as stablecoins and tokenized stocks, with private balances and transfer rules enforced by proofs.
+5. **Private apps.** Deploy contracts whose inputs and state stay hidden. SDK and APIs for wallets, fintechs and apps.
+6. **Proofs, not exposure.** View keys and credentials for audits, compliance checks and taxes. Private, not shady.
+7. **Connected to everything.** Ethereum, Base, Robinhood Chain and Monero connect in and out.
 
-## How it works
+## Network
 
-1. **Come in.** Deposit from Ethereum, Base or Robinhood Chain, or start a swap from Monero.
-2. **Go private.** Your funds become shielded notes. Transfers inside Hash Chain hide amounts and parties.
-3. **Leave anywhere.** Withdraw to any supported chain. Nothing on-chain connects your exit to your entry.
+- **Its own validators.** An independent validator set secures the network by staking ETH.
+- **Proofs, not trust in contents.** Validators verify zero-knowledge proofs without seeing amounts or parties.
+- **Fast deterministic finality** is the design target.
+- **Fees in ETH.** No token is required to use the network.
+- **Connections.** Ethereum, Base and Robinhood Chain connect through bridge contracts verified by the validator set, plus a liquidity network for fast transfers. Monero connects through trustless atomic swaps.
 
 ```mermaid
 flowchart LR
-    ETH["Ethereum"] <--> HUB(("Hash Chain<br/>private hub"))
-    BASE["Base"] <--> HUB
-    RH["Robinhood Chain"] <--> HUB
-    XMR["Monero"] <--> HUB
+    ETH["Ethereum"] <--> HC(("Hash Chain<br/>Layer 0"))
+    BASE["Base"] <--> HC
+    RH["Robinhood Chain"] <--> HC
+    XMR["Monero"] <--> HC
+    VAL["Validator set<br/>(stakes ETH)"] --- HC
 ```
 
-## Supported routes (planned)
+## Who it is for
 
-| Chain | Asset | Route type |
-| --- | --- | --- |
-| Base | ETH, with more assets to be specified | Canonical bridge, plus fast exits through the liquidity network |
-| Ethereum | ETH, with more assets to be specified | Liquidity network |
-| Robinhood Chain | ETH only in v1, other assets later | Liquidity network |
-| Monero | XMR and ETH | Trustless atomic swap |
-
-## Key features
-
-- **Shielded transfers.** Notes, nullifiers and zero-knowledge proofs hide amounts and parties.
-- **Any-to-any private routes.** One hub connects every supported chain to every other.
-- **Trustless Monero swaps.** XMR to ETH and back with adaptor signatures and no custodian.
-- **View keys.** Share scoped, read-only, revocable visibility into your own history with an accountant or auditor. Private, not shady.
-- **ETH for gas.** No new token is needed to use the chain.
+- **People** who want to stop being tracked and pay and hold privately.
+- **Traders** who want to trade without being front-run or copied.
+- **Businesses and fintechs** that pay suppliers and staff, run treasury and accept payments without publishing finances, and can still prove them to auditors.
+- **Builders** who want private apps without inventing cryptography.
+- **Monero holders** who want to reach the Ethereum world without an exchange.
 
 ## Security
 
@@ -59,6 +59,7 @@ The trust model, risks and open design questions are documented in the [security
 
 ## Links
 
+- Website: https://hashchain.network
 - X: https://x.com/hashchainL0
 - Protocol spec: https://github.com/HashChainL0/protocol-spec
 - Brand kit: https://github.com/HashChainL0/brand-kit
