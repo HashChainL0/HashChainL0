@@ -30,11 +30,13 @@ Hash Chain is a privacy-first Layer 0 network. It has its own validators, and pr
 
 ## Network
 
+<p align="center"><img src="assets/layer0.svg" alt="Layered diagram of Hash Chain: a validator network at the base, a private-by-default layer above it, product pillars on top, and connections to Ethereum, Base, Robinhood Chain and Monero" width="900"></p>
+
 - **Its own validators.** An independent validator set secures the network by staking ETH.
 - **Proofs, not trust in contents.** Validators verify zero-knowledge proofs without seeing amounts or parties.
 - **Fast deterministic finality** is the design target.
 - **Fees in ETH.** No token is required to use the network.
-- **Connections.** Ethereum, Base and Robinhood Chain connect through bridge contracts verified by the validator set, plus a liquidity network for fast transfers. Monero connects through trustless atomic swaps.
+- **Connections.** Ethereum, Base and Robinhood Chain connect through contracts verified by the validator set, plus a liquidity network for fast transfers. Monero connects through trustless atomic swaps.
 
 ```mermaid
 flowchart LR
