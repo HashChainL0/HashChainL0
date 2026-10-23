@@ -89,4 +89,4 @@ The trust model, risks and open design questions are documented in the [security
 - HIPs: https://github.com/HashChainL0/hips
 - XMR swap model: https://github.com/HashChainL0/xmr-swap-model
 - Brand kit: https://github.com/HashChainL0/brand-kit
-- Latest release: [v0.1.0 draft specification](https://github.com/HashChainL0/protocol-spec/releases/tag/v0.1.0) ([changelog](https://github.com/HashChainL0/protocol-spec/blob/main/CHANGELOG.md))
+- Latest release: [v0.2.0 draft specification](https://github.com/HashChainL0/protocol-spec/releases/tag/v0.2.0) ([changelog](https://github.com/HashChainL0/protocol-spec/blob/main/CHANGELOG.md))
