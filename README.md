@@ -8,7 +8,7 @@
 
 The privacy Layer 0.
 
-[Website](https://hashchain.network) &nbsp;|&nbsp; [X](https://x.com/hashchainL0) &nbsp;|&nbsp; [Protocol spec](https://github.com/HashChainL0/protocol-spec) &nbsp;|&nbsp; [Brand kit](https://github.com/HashChainL0/brand-kit)
+[Website](https://hashchain.network) &nbsp;|&nbsp; [X](https://x.com/hashchainL0) &nbsp;|&nbsp; [Protocol spec](https://github.com/HashChainL0/protocol-spec) &nbsp;|&nbsp; [HIPs](https://github.com/HashChainL0/hips) &nbsp;|&nbsp; [XMR swap model](https://github.com/HashChainL0/xmr-swap-model) &nbsp;|&nbsp; [Brand kit](https://github.com/HashChainL0/brand-kit)
 
 </div>
 
@@ -55,6 +55,13 @@ flowchart LR
 - **Builders** who want private apps without inventing cryptography.
 - **Monero holders** who want to reach the Ethereum world without an exchange.
 
+## Repositories
+
+- [protocol-spec](https://github.com/HashChainL0/protocol-spec): the written design of Hash Chain, a draft, with research notes.
+- [hips](https://github.com/HashChainL0/hips): Hash Chain Improvement Proposals, the place where changes to the design are proposed and argued in public.
+- [xmr-swap-model](https://github.com/HashChainL0/xmr-swap-model): a research model of the ETH and XMR atomic swap. Not a working swap. Do not use with funds.
+- [brand-kit](https://github.com/HashChainL0/brand-kit): logo, colors and typography for referencing Hash Chain.
+
 ## Security
 
 The trust model, risks and open design questions are documented in the [security and trust spec](https://github.com/HashChainL0/protocol-spec/blob/main/docs/09-security-and-trust.md). To report a vulnerability, open a private security advisory on the [protocol-spec](https://github.com/HashChainL0/protocol-spec/security/advisories/new) repository.
@@ -64,5 +71,7 @@ The trust model, risks and open design questions are documented in the [security
 - Website: https://hashchain.network
 - X: https://x.com/hashchainL0
 - Protocol spec: https://github.com/HashChainL0/protocol-spec
+- HIPs: https://github.com/HashChainL0/hips
+- XMR swap model: https://github.com/HashChainL0/xmr-swap-model
 - Brand kit: https://github.com/HashChainL0/brand-kit
 - Latest release: [v0.1.0 draft specification](https://github.com/HashChainL0/protocol-spec/releases/tag/v0.1.0) ([changelog](https://github.com/HashChainL0/protocol-spec/blob/main/CHANGELOG.md))
