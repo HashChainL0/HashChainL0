@@ -55,6 +55,21 @@ flowchart LR
 - **Builders** who want private apps without inventing cryptography.
 - **Monero holders** who want to reach the Ethereum world without an exchange.
 
+## Roadmap
+
+Phases are an order of work, not a schedule. No phase has a date.
+
+| Phase | Focus | State |
+| --- | --- | --- |
+| 0. Spec, website, community | The written design, the public site and an open community | Now |
+| 1. Devnet | Private accounts and payments, validator client | Not started |
+| 2. Public testnet | Private swaps, Base and Ethereum connections, SDK preview | Not started |
+| 3. Audits and validator onboarding | Independent audits, onboarding of the first validator set | Not started |
+| 4. Mainnet | Accounts, payments, swaps, Base and Ethereum | Not started |
+| 5. Later | Robinhood Chain, Monero swaps, private assets and apps | Not started |
+
+The full roadmap is in the [protocol spec](https://github.com/HashChainL0/protocol-spec/blob/main/docs/13-roadmap.md).
+
 ## Repositories
 
 - [protocol-spec](https://github.com/HashChainL0/protocol-spec): the written design of Hash Chain, a draft, with research notes.
