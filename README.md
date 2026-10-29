@@ -70,6 +70,13 @@ Phases are an order of work, not a schedule. No phase has a date.
 
 The full roadmap is in the [protocol spec](https://github.com/HashChainL0/protocol-spec/blob/main/docs/13-roadmap.md).
 
+## Start here
+
+- New to the project: read the [overview](https://github.com/HashChainL0/protocol-spec/blob/main/docs/00-overview.md) and the [FAQ](https://github.com/HashChainL0/protocol-spec/blob/main/docs/faq.md).
+- Unfamiliar term: check the [glossary](https://github.com/HashChainL0/protocol-spec/blob/main/docs/glossary.md).
+- What you would be trusting: [security and trust](https://github.com/HashChainL0/protocol-spec/blob/main/docs/09-security-and-trust.md) and the [threat model](https://github.com/HashChainL0/protocol-spec/blob/main/docs/14-threat-model.md).
+- A proposed change to the design: browse the [HIPs](https://github.com/HashChainL0/hips).
+
 ## Repositories
 
 - [protocol-spec](https://github.com/HashChainL0/protocol-spec): the written design of Hash Chain, a draft, with research notes.
