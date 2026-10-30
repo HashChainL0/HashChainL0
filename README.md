@@ -84,6 +84,15 @@ The full roadmap is in the [protocol spec](https://github.com/HashChainL0/protoc
 - [xmr-swap-model](https://github.com/HashChainL0/xmr-swap-model): a research model of the ETH and XMR atomic swap. Not a working swap. Do not use with funds.
 - [brand-kit](https://github.com/HashChainL0/brand-kit): logo, colors and typography for referencing Hash Chain.
 
+## Take part
+
+Hash Chain is at the spec stage, so careful criticism is the most useful contribution.
+
+- Ask about something unclear in the spec with a [spec question](https://github.com/HashChainL0/protocol-spec/issues/new?template=spec-question.md).
+- Suggest a change to a spec document with a [spec change](https://github.com/HashChainL0/protocol-spec/issues/new?template=spec-change.md) issue.
+- Propose a design change through a [HIP](https://github.com/HashChainL0/hips/blob/main/hips/hip-0001.md). Start from an idea issue and discuss it in public first.
+- Fix typos and broken links with a pull request in the repository concerned.
+
 ## Security
 
 The trust model, risks and open design questions are documented in the [security and trust spec](https://github.com/HashChainL0/protocol-spec/blob/main/docs/09-security-and-trust.md). To report a vulnerability, open a private security advisory on the [protocol-spec](https://github.com/HashChainL0/protocol-spec/security/advisories/new) repository.
