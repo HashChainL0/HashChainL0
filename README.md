@@ -28,6 +28,16 @@ Hash Chain is a privacy-first Layer 0 network. It has its own validators, and pr
 6. **Proofs, not exposure.** View keys and credentials for audits, compliance checks and taxes. Private, not shady.
 7. **Connected to everything.** Ethereum, Base, Robinhood Chain and Monero connect in and out.
 
+## Key terms
+
+Short versions. Full definitions are in the [glossary](https://github.com/HashChainL0/protocol-spec/blob/main/docs/glossary.md).
+
+- **Layer 0.** A base network that other networks plug into. Hash Chain is one, with privacy as a base-layer property.
+- **Shielded account.** An account whose balances and history are hidden by default.
+- **View key.** A read-only key that lets a chosen person see a scoped part of your history. It cannot spend.
+- **Connection.** A door between Hash Chain and Ethereum, Base, Robinhood Chain or Monero.
+- **HIP.** A Hash Chain Improvement Proposal, a public design document that proposes one change.
+
 ## Network
 
 <p align="center"><img src="assets/layer0.svg" alt="Layered diagram of Hash Chain: a validator network at the base, a private-by-default layer above it, product pillars on top, and connections to Ethereum, Base, Robinhood Chain and Monero" width="900"></p>
