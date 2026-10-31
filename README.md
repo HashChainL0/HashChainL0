@@ -8,7 +8,7 @@
 
 The privacy Layer 0.
 
-[Website](https://hashchain.network) &nbsp;|&nbsp; [X](https://x.com/hashchainL0) &nbsp;|&nbsp; [Protocol spec](https://github.com/HashChainL0/protocol-spec) &nbsp;|&nbsp; [HIPs](https://github.com/HashChainL0/hips) &nbsp;|&nbsp; [XMR swap model](https://github.com/HashChainL0/xmr-swap-model) &nbsp;|&nbsp; [Brand kit](https://github.com/HashChainL0/brand-kit)
+[Website](https://hashchain.network) &nbsp;|&nbsp; [X](https://x.com/hashchainL0) &nbsp;|&nbsp; [Protocol spec](https://github.com/HashChainL0/protocol-spec) &nbsp;|&nbsp; [HIPs](https://github.com/HashChainL0/hips) &nbsp;|&nbsp; [XMR swap model](https://github.com/HashChainL0/xmr-swap-model) &nbsp;|&nbsp; [Shielded pool model](https://github.com/HashChainL0/shielded-pool-model) &nbsp;|&nbsp; [Brand kit](https://github.com/HashChainL0/brand-kit)
 
 </div>
 
