@@ -36,6 +36,7 @@ Short versions. Full definitions are in the [glossary](https://github.com/HashCh
 - **Shielded account.** An account whose balances and history are hidden by default.
 - **View key.** A read-only key that lets a chosen person see a scoped part of your history. It cannot spend.
 - **Connection.** A door between Hash Chain and Ethereum, Base, Robinhood Chain or Monero.
+- **Association set.** An optional public list of vouched-for deposits. A withdrawal can prove it came from one of them without saying which. Proposed in HIP-6.
 - **HIP.** A Hash Chain Improvement Proposal, a public design document that proposes one change.
 
 ## Network
