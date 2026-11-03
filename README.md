@@ -93,6 +93,7 @@ The full roadmap is in the [protocol spec](https://github.com/HashChainL0/protoc
 - [protocol-spec](https://github.com/HashChainL0/protocol-spec): the written design of Hash Chain, a draft, with research notes.
 - [hips](https://github.com/HashChainL0/hips): Hash Chain Improvement Proposals, the place where changes to the design are proposed and argued in public.
 - [xmr-swap-model](https://github.com/HashChainL0/xmr-swap-model): a research model of the ETH and XMR atomic swap. Not a working swap. Do not use with funds.
+- [shielded-pool-model](https://github.com/HashChainL0/shielded-pool-model): a research model of a note-based shielded pool with optional association sets. Not a working pool.
 - [brand-kit](https://github.com/HashChainL0/brand-kit): logo, colors and typography for referencing Hash Chain.
 
 ## Take part
